@@ -12,6 +12,13 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    firebase: {
+      apiKey: "AIzaSyB7QaLPNJPOqU-bOAdg7UHcE8PXgMfiBTg",
+      authDomain: "project-a0c33.firebaseapp.com",
+      databaseURL: "https://project-a0c33.firebaseio.com",
+      storageBucket: "project-a0c33.appspot.com",
+      messagingSenderId: "90956766384"
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
