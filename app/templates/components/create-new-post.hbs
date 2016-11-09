@@ -9,6 +9,8 @@
       {{textarea value=newPost.text placeholder="Content" rows="10" cols="140"}}
     </p>
     <p>
-        <button {{action "createPost" newPost}}>Publish</button>
+        {{#liquid-if (and newPost.title newPost.author) class="publish-button"}}
+          <button {{action "createPost" newPost}}>Publish</button>
+        {{/liquid-if}}
     </p>
 </form>
